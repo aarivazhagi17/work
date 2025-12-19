@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap Link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <!--Aos Animation link-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!--Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Document</title>
+    <style>
+      
+        .bread {
+            background: #379c9e;
+            background: linear-gradient(90deg, rgba(83, 191, 237, 1) 0%, rgb(200, 143, 143) 50%, rgba(83, 191, 237, 1) 100%);
+            padding: 120px;
+            margin-top: 100px;
+            text-align: center;
+            color: Black;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .head {
+            font-size: 30px;
+            letter-spacing: 10px;
+        }
+
+        .img {
+            float: left;
+            margin-top: -90px;
+
+        }
+
+        .img1 {
+            float: right;
+            margin-top: -80px;
+        }
+
+        ul a {
+            font-size: 20px;
+            padding: 10px;
+            color: blue;
+            text-decoration: none;
+        }
+
+        ul a:hover {
+            color: red;
+        }
+
+        .juice {
+            margin-top: 80px;
+            overflow: hidden;
+
+        }
+
+        .Juice {
+            padding: 0;
+        }
+        .delivery{
+            background-color: white;
+            border-radius: 40px;
+            overflow: hidden;
+            box-shadow: 2px 3px 2px 2px rgb(190, 190, 190);
+        }
+        .detail{
+            height: 30px;
+        }
+        .wrap{
+          font-size: 18px;
+      display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 10px 10px;
+  justify-items: center;
+  align-items: start;
+  justify-content: center;
+  align-content: start; 
+  background-color:white;
+  box-shadow: 2px 3px 6px black;
+  box-sizing: border-box;
+  padding-top: 20px;
+  margin-top: 30px;
+  border-radius: 20px;
+  
+  
+  
+        }
+        @media screen and (max-width:767px) {
+          .wrap{
+            grid-template-columns: 1fr;
+          }
+        }
+   
+    </style>
+</head>
+
+<body>
+    <!--Product Single-->
+    <div class="bread">
+        <h2 data-aos="zoom-in-right" class="head"><span class="text-danger">JUICE</span>Process</h2>
+        <ul data-aos="zoom-in-left">
+
+            <a href="../project/sm.html">Home Page</a>
+
+        </ul>
+    </div>
+    <div>
+        <img class="img" data-aos="fade-right" src="../project/Juice Items/Orange.png" height="150px" alt="">
+    </div>
+    <div>
+        <img class="img1" data-aos="fade-left" src="../project/Juice Items/Cocktail.png" alt="">
+    </div>
+    <!--Juice Process-->
+    <section class="juice">
+        <div class="Container py-5">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="col-12">
+                        <div>
+                            <h2 data-aos="fade-right"><span class="text-danger">Cleaning </span>and Washing</h2>
+                            <p data-aos="fade-right">
+                                Thoroughly clean the fruits or vegetables to remove dirt, pesticides, and any
+                                contaminants. This
+                                step is crucial to...
+                            </p><br>
+                            <h2 data-aos="fade-right"><span class="text-danger">Peeling </span>and Cutting</h2>
+                            <p data-aos="fade-right">
+                                Depending on the type of produce, peeling and cutting might be necessary. For instance,
+                                citrus
+                                fruits may need peeling...
+                            </p>
+                            <h2 data-aos="fade-right"><span class="text-danger">Juicing</span> Process</h2>
+                            <p data-aos="fade-right">
+                                Use juicers or extractors to obtain the juice. There are different types of juicers,
+                                such as centrifugal, masticating, or hydraulic presses, each suited for different fruits
+                                and...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <img class="Juice" data-aos="zoom-in-up" src="./Juice Items/Juice-Frent.png" height="380px" width="250px" alt="">
+                </div>
+                <div class="col-md-4">
+                    <h2 class="text-danger" data-aos="fade-left">Filtaration</h2>
+                    <p data-aos="fade-left">
+                        After extraction, the juice might undergo filtration to remove pulp, seeds, or any remaining
+                        solids, resulting in a smoother...
+                    </p>
+                    <h2 class="text-danger" data-aos="fade-left">Pasteurization</h2>
+                    <p data-aos="fade-left">
+                        Some manufacturers pasteurize juice by briefly heating it to kill bacteria and extend its shelf
+                        life. However, this step can affect...
+                    </p>
+                    <h2 class="text-danger" data-aos="fade-left">Pakaging</h2>
+                    <p data-aos="fade-left">
+                        Fill the juice into appropriate containers, such as bottles, cartons, or pouches, ensuring
+                        proper sealing and labeling.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!--delivery Boy-->
+  <div class="container delivery py-5">
+    <div class="row g-5">
+        
+        <div class="col-md-4" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+    <img class="boy" src="../project/Shop Single/delivery-man-2.png" width="400px" alt="">
+</div>
+<div class="col-md-8 p-2" data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom">
+    <h2 class="text-danger text-center">30 MINUTES FAST</h2><br>
+    <h2 class="text-success text-center">DELIVERY CHALLANGE</h2>
+    <h5 class="text-center p-5">
+        Span Flexible Working hours, Weekly <br>
+        Payments and insurance Coverage !
+        
+    </h5>
+</div>
+</div>
+</div>
+       <div>
+
+       </div>
+       <div class="wrap">
+        <div>
+          <h4 class="text-center">Phone</h4>
+          <p class="text-danger">8764345632</p>
+        </div>
+          <div>
+          <h4 class="text-center">E-mail</h4>
+          <p class="text-danger">aarivazhagi17@gmail.com</p>
+        </div>
+          <div>
+          <h4 class="text-center">Website</h4>
+          <ul class="list-unstyled d-flex ms-auto text-center text-danger">
+            <li><i class="fas fa-phone-alt"></i><a href="#"></a></li>
+            <li><i class="far fa-envelope"></i><a href="#"></a></li>
+            <li><i class="fab fa-whatsapp"></i><a href="#"></a></li>
+          </ul>
+        </div>
+         <div>
+          <h4 class="text-center">Address</h4>
+          <p>East St., <span class="text-danger">tenkasi</span></p>
+        </div>
+
+       </div>
+       <script>
+  AOS.init();
+</script>
+
+</body>
+
+</html>

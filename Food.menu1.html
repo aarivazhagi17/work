@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Bootstrap Link-->
+    <!--Bootstrap Link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!--Font Awesome-->
+    <style>
+        .bread {
+            background: #379c9e;
+            background: linear-gradient(90deg, rgba(83, 191, 237, 1) 0%, rgb(200, 143, 143) 50%, rgba(83, 191, 237, 1) 100%);
+            padding: 120px;
+            margin-top: 100px;
+            text-align: center;
+            color: Black;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .head {
+            font-size: 30px;
+            letter-spacing: 10px;
+        }
+
+        .img2 {
+            float: left;
+            margin-top: -90px;
+
+        }
+
+        .img1 {
+            float: right;
+            margin-top: -80px;
+        }
+
+        ul a {
+            font-size: 20px;
+            padding: 10px;
+            color: blue;
+            text-decoration: none;
+        }
+
+        ul a:hover {
+            color: red;
+        }
+
+        .creat {
+            display: flex;
+            margin-top: 140px;
+        }
+
+        .Crispy {
+            color: blue;
+            font-size: 40px;
+            text-align: center;
+            margin-top: 100px;
+            display: block;
+        }
+
+        .img {
+            filter: blur(2px);
+            cursor: pointer;
+        }
+
+        .img:hover {
+            filter: saturate(200%);
+
+        }
+
+        .menu1 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 10px 10px;
+            justify-items: center;
+            align-items: center;
+            justify-content: space-around;
+            align-content: center;
+            grid-auto-columns: auto;
+            grid-auto-rows: auto;
+            padding-top: 150px;
+            color: white;
+           
+        }
+        @media screen and (min-width:487px){
+            .menu1{
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+
+        }
+        @media screen and (max-width:767px) {
+            .menu1{
+                grid-template-columns: 1fr;
+            }
+            
+        }
+        .menu2{
+            background-color:black;
+            border-radius: 30px;
+        }
+        .Menus{
+                  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 10px 10px;
+   padding-top: 70px;
+  justify-items: center;
+  align-items: center;
+  justify-content: space-around;
+  align-content: center;
+  overflow: hidden;
+  grid-auto-columns: auto;
+  grid-auto-rows: auto;
+  width: 100%;
+        }
+        @media screen and (max-width:767px) {
+            .Menus{
+                grid-template-columns: 1fr;
+            } 
+            
+        }
+        .USA{
+            width: 420px;
+        }
+        .Sailer{
+            padding-left:10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Product Single-->
+    <div class="bread">
+        <h2 data-aos="zoom-in-right" class="head"><span class="text-danger">FOOD</span>MENU 1</h2>
+        <ul data-aos="zoom-in-left">
+
+            <a href="../project/sm.html">Home Page</a>
+
+        </ul>
+    </div>
+    <div>
+        <img class="img2" data-aos="fade-right" src="../project/Juice Items/Orange.png" height="150px" alt="">
+    </div>
+    <div>
+        <img class="img1" data-aos="fade-left" src="../project/Juice Items/Cocktail.png" alt="">
+    </div>
+
+    <div>
+        <h2 class="Crispy">Crispy Items</h2>
+    </div>
+    <div>
+        <marquee behavior="" direction="">
+            <div class="creat">
+                <img class="img" src="../project/Food Menu2/01.jpg" alt="" height="200px" width="260px">
+                <img class="img" src="../project/Food Menu2/02.jpg" alt="" height="200px" width="260px">
+                <img class="img" src="../project/Food Menu2/03.jpg" alt="" height="200px" width="260px">
+                <img class="img" src="../project/Food Menu2/04.jpg" alt="" height="200px" width="260px">
+                <img class="img" src="../project/Food Menu2/05.jpg" alt="" height="200px" width="260px">
+
+        </marquee>
+        <div class="menu1 ">
+            <div class="menu2">
+                <img class="p-4" src="../project/Food Menu1/Ruti with Beef Slice.png" alt="">
+
+                <p class="text-center p-3"> <span class="text-danger p-2">5% </span><span class="p-2 fw-bold">$30.52</span> <del class="text-white">28.52$</del></p>
+                <h5 class="text-center">Ruti with Beef Slice</h5>
+                 <div class="text-center p-3">
+                <img src="../project/Food Menu1/white star.png" width="20px" alt="">
+                <img src="../project/Food Menu1/white star.png" width="20px" alt="">
+                <img src="../project/Food Menu1/white star.png" width="20px" alt="">
+                <img src="../project/Food Menu1/white star.png" width="20px" alt="">
+                <img src="../project/Food Menu1/white star.png" width="20px" alt="">
+                </div>
+
+
+            </div>
+            <div class="menu2">
+                <img class="p-4" src="../project/Food Menu1/Whopper Burger King.png" width="270px" alt="">
+
+                <p class="text-center p-3"> <span class="text-danger p-2">5% </span><span class="p-2 fw-bold">$30.52</span> <del class="text-white">28.52$</del></p>
+                <h5 class="text-center">Whopper Burger King</h5>
+                <div class="text-center p-3">
+                <img src="../project/Food Menu1/white star.png" width="20px" alt="">
+                <img src="../project/Food Menu1/white star.png" width="20px" alt="">
+                <img src="../project/Food Menu1/white star.png" width="20px" alt="">
+                <img src="../project/Food Menu1/white star.png" width="20px" alt="">
+                <img src="../project/Food Menu1/white star.png" width="20px" alt="">
+                </div>
+            </div>
+            <div class="menu2">
+                <img class="p-4" src="../project/Food Menu1/Chiness Pasta.png" alt="">
+
+                <p class="text-center p-3"> <span class="text-danger p-2">5% </span><span class="p-2 fw-bold">$30.52</span> <del class="text-white">28.52$</del></p>
+                <h5 class="text-center">Chiness Pasta</h5>
+                 <div class="text-center p-3">
+                <img src="../project/Food Menu1/white star.png" width="20px" alt="">
+                <img src="../project/Food Menu1/white star.png" width="20px" alt="">
+                <img src="../project/Food Menu1/white star.png" width="20px" alt="">
+                <img src="../project/Food Menu1/white star.png" width="20px" alt="">
+                <img src="../project/Food Menu1/white star.png" width="20px" alt="">
+                </div>
+
+            </div>
+            <div class="menu2">
+                <img class="p-4" src="../project/Food Menu1/delicious-burger.png" alt="">
+                <p class="text-center p-3"> <span class="text-danger p-2">5% </span><span class="p-2 fw-bold">$30.52</span> <del class="text-white">28.52$</del></p>
+                <h5 class="text-center">Delicious Burger</h5>
+                 <div class="text-center p-3">
+                <img src="../project/Food Menu1/white star.png" width="20px" alt="">
+                <img src="../project/Food Menu1/white star.png" width="20px" alt="">
+                <img src="../project/Food Menu1/white star.png" width="20px" alt="">
+                <img src="../project/Food Menu1/white star.png" width="20px" alt="">
+                <img src="../project/Food Menu1/white star.png" width="20px" alt="">
+                </div>
+
+            </div>
+            <div class="menu2">
+                <img class="p-4" src="../project/Food Menu1/Fast Food Combo.png" alt="">
+                <p class="text-center p-3"> <span class="text-danger p-2">5% </span><span class="p-2 fw-bold">$30.52</span> <del class="text-white">28.52$</del></p>
+                <h5 class="text-center">Fast Food Combo</h5>
+                 <div class="text-center p-3">
+                <img src="../project/Food Menu1/white star.png" width="20px" alt="">
+                <img src="../project/Food Menu1/white star.png" width="20px" alt="">
+                <img src="../project/Food Menu1/white star.png" width="20px" alt="">
+                <img src="../project/Food Menu1/white star.png" width="20px" alt="">
+                <img src="../project/Food Menu1/white star.png" width="20px" alt="">
+                </div>
+            </div>
+
+            <div class="menu2">
+                <img class="p-4" src="../project/Food Menu1/Ruti with Chicken.png" alt="">
+                <p class="text-center p-3"> <span class="text-danger p-2">5% </span><span class="p-2 fw-bold">$30.52</span> <del class="text-white">28.52$</del></p>
+                <h5 class="text-center">Ruti with Chicken</h5>
+                 <div class="text-center p-3">
+                <img src="../project/Food Menu1/white star.png" width="20px" alt="">
+                <img src="../project/Food Menu1/white star.png" width="20px" alt="">
+                <img src="../project/Food Menu1/white star.png" width="20px" alt="">
+                <img src="../project/Food Menu1/white star.png" width="20px" alt="">
+                <img src="../project/Food Menu1/white star.png" width="20px" alt="">
+                </div>
+
+            </div>
+            <div class="menu2">
+                <img class="p-4" src="../project/Food Menu1/Big Pizzaa.png" height="280px" width="300px" alt="">
+                <p class="text-center p-3"> <span class="text-danger p-2">5% </span><span class="p-2 fw-bold">$30.52</span> <del class="text-white">28.52$</del></p>
+                <h5 class="text-center">Pizzaa</h5>
+                 <div class="text-center p-3">
+                <img src="../project/Food Menu1/white star.png" width="20px" alt="">
+                <img src="../project/Food Menu1/white star.png" width="20px" alt="">
+                <img src="../project/Food Menu1/white star.png" width="20px" alt="">
+                <img src="../project/Food Menu1/white star.png" width="20px" alt="">
+                <img src="../project/Food Menu1/white star.png" width="20px" alt="">
+                </div>
+
+            </div>
+            <div class="menu2">
+                <img class="p-4" src="../project/Food Menu1/02.jpg" height="280px" width="300px" alt="">
+                <p class="text-center p-3"> <span class="text-danger p-2">5% </span><span class="p-2 fw-bold">$30.52</span> <del class="text-white">28.52$</del></p>
+                <h5 class="text-center">Delicious Food</h5>
+                 <div class="text-center p-3">
+                <img src="../project/Food Menu1/white star.png" width="20px" alt="">
+                <img src="../project/Food Menu1/white star.png" width="20px" alt="">
+                <img src="../project/Food Menu1/white star.png" width="20px" alt="">
+                <img src="../project/Food Menu1/white star.png" width="20px" alt="">
+                <img src="../project/Food Menu1/white star.png" width="20px" alt="">
+                </div>
+            </div>
+
+            <div class="menu2">
+                <img class="p-4" src="../project/Food Menu1/Delicious Fast Food.jpg" height="280px" width="300px" alt="">
+                <p class="text-center p-3"> <span class="text-danger p-2">5% </span><span class="p-2 fw-bold">$30.52</span> <del class="text-white">28.52$</del></p>
+                <h5 class="text-center">Delicious Food</h5>
+                 <div class="text-center p-3">
+                <img src="../project/Food Menu1/white star.png" width="20px" alt="">
+                <img src="../project/Food Menu1/white star.png" width="20px" alt="">
+                <img src="../project/Food Menu1/white star.png" width="20px" alt="">
+                <img src="../project/Food Menu1/white star.png" width="20px" alt="">
+                <img src="../project/Food Menu1/white star.png" width="20px" alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container-fluid Menus">
+            <div class="Cheff">
+               <img src="../project/Food Menu1/Cheff1.jpg" height="700px" width="400px" alt="image" id="myImage">
+            </div>
+            <div class="USA">
+            <label for="">Name :</label>
+                <input type="text" name="text" id="" placeholder="Enter Name" class="form-control">
+                <label for="">E-mail :</label>
+                <input type="text" name="email" id="" placeholder="Enter Email" class="form-control">
+                <label for="comment">Comments :</label>
+                <textarea name="comment" id="comment" class="form-control" rows="5" required></textarea>
+                <button class="btn btn-primary my-4" onclick="MyFunction()">SignIn</button>
+            </div>
+            <div class="Sailer">
+                <img src="../project/Food Menu1/Speaker.jpg" width="500px" alt="">
+            </div>
+            
+        </div>
+        <script src="../project/Food.menu1.js"></script>
+</body>
+
+</html>

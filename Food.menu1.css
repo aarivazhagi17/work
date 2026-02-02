@@ -1,0 +1,118 @@
+.bread {
+            background: #379c9e;
+            background: linear-gradient(90deg, rgba(83, 191, 237, 1) 0%, rgb(200, 143, 143) 50%, rgba(83, 191, 237, 1) 100%);
+            padding: 120px;
+            margin-top: 100px;
+            text-align: center;
+            color: Black;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .head {
+            font-size: 30px;
+            letter-spacing: 10px;
+        }
+
+        .img2 {
+            float: left;
+            margin-top: -90px;
+
+        }
+
+        .img1 {
+            float: right;
+            margin-top: -80px;
+        }
+
+        ul a {
+            font-size: 20px;
+            padding: 10px;
+            color: blue;
+            text-decoration: none;
+        }
+
+        ul a:hover {
+            color: red;
+        }
+
+        .creat {
+            display: flex;
+            margin-top: 140px;
+        }
+
+        .Crispy {
+            color: blue;
+            font-size: 40px;
+            text-align: center;
+            margin-top: 100px;
+            display: block;
+        }
+
+        .img {
+            filter: blur(2px);
+            cursor: pointer;
+        }
+
+        .img:hover {
+            filter: saturate(200%);
+
+        }
+
+        .menu1 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 10px 10px;
+            justify-items: center;
+            align-items: center;
+            justify-content: space-around;
+            align-content: center;
+            grid-auto-columns: auto;
+            grid-auto-rows: auto;
+            padding-top: 150px;
+            color: white;
+           
+        }
+        @media screen and (min-width:487px){
+            .menu1{
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+
+        }
+        @media screen and (max-width:767px) {
+            .menu1{
+                grid-template-columns: 1fr;
+            }
+            
+        }
+        .menu2{
+            background-color:black;
+            border-radius: 30px;
+        }
+        .Menus{
+                  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 10px 10px;
+   padding-top: 70px;
+  justify-items: center; 
+  align-items: center;
+  justify-content: space-around;
+  align-content: center;
+  overflow: hidden;
+  grid-auto-columns: auto;
+  grid-auto-rows: auto;
+  width: 100%;
+        }
+        @media screen and (max-width:767px) {
+            .Menus{
+                grid-template-columns: 1fr;
+            }
+
+        }
+        .USA{
+            width: 420px;
+        }
+        .Sailer{
+            padding-left:10px;
+        }

@@ -1,0 +1,82 @@
+ .bread {
+     background: #379c9e;
+     background: linear-gradient(90deg, rgba(83, 191, 237, 1) 0%, rgb(200, 143, 143) 50%, rgba(83, 191, 237, 1) 100%);
+     padding: 120px;
+     margin-top: 100px;
+     text-align: center;
+     color: Black;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ .head {
+     font-size: 30px;
+     letter-spacing: 10px;
+ }
+
+ .img {
+     float: left;
+     margin-top: -90px;
+
+ }
+
+ .img1 {
+     float: right;
+     margin-top: -80px;
+ }
+
+ ul a {
+     font-size: 20px;
+     padding: 10px;
+     color: blue;
+     text-decoration: none;
+ }
+
+ ul a:hover {
+     color: red;
+ }
+
+ .juice {
+     margin-top: 80px;
+     overflow: hidden;
+
+ }
+
+ .Juice {
+     padding: 0;
+ }
+
+ .delivery {
+     background-color: white;
+     border-radius: 40px;
+     overflow: hidden;
+     box-shadow: 2px 3px 2px 2px rgb(190, 190, 190);
+ }
+
+ .detail {
+     height: 30px;
+ }
+
+ .wrap {
+     font-size: 18px;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     grid-template-rows: 1fr;
+     gap: 10px 10px;
+     justify-items: center;
+     align-items: start;
+     justify-content: center;
+     align-content: start;
+     background-color: white;
+     box-shadow: 2px 3px 6px black;
+     box-sizing: border-box;
+     padding-top: 20px;
+     margin-top: 30px;
+     border-radius: 20px;
+
+ }
+
+ @media screen and (max-width:767px) {
+     .wrap {
+         grid-template-columns: 1fr;
+     }
+ }

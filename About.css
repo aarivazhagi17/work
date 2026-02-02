@@ -1,0 +1,25 @@
+.bread {
+     background: #379c9e;
+     background: linear-gradient(90deg, rgba(83, 191, 237, 1) 0%, rgb(200, 143, 143) 50%, rgba(83, 191, 237, 1) 100%);
+     padding: 120px;
+     margin-top: 100px;
+     text-align: center;
+     color: Black;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ .head {
+     font-size: 30px;
+     letter-spacing: 10px;
+ }
+
+ .img {
+     float: left;
+     margin-top: -90px;
+
+ }
+
+ .img1 {
+     float: right;
+     margin-top: -80px;
+ }
